@@ -89,7 +89,6 @@ const readArgs = () => {
   }
 }
 
-// NOTE: Avoid using `async` function for old Node.js.
 const main = async () => {
   readArgs()
 
