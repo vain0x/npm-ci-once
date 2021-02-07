@@ -22,7 +22,7 @@ npm-ci-once
 
 ## Mechanism
 
-See the tiny implementation: [src/main.js](src/main.js).
+See the tiny implementation: [bin/main.js](bin/main.js).
 
 - **Restoration**: To restore, this script spawns a default shell to execute `npm ci`.
 - **Skipping unnecessary restoration**: After restoration, this script writes SHA-256 hash value of `package-lock.json` to a file under `node_modules`. This scripts also checks if the hash value has changed or not.
