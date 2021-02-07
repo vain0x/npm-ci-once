@@ -11,7 +11,7 @@ npx ci-once
 ## Install from npm
 
 ```sh
-npm install -g npm-ci-once
+npm install -g ci-once
 ```
 
 And then use:
