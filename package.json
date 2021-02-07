@@ -1,0 +1,11 @@
+{
+  "name": "ci-once",
+  "version": "1.0.0",
+  "description": "Run npm ci unless package-lock was changed from the time before",
+  "author": "vain0x <vainzerox@gmail.com>",
+  "license": "CC0-1.0",
+  "main": "bin/main.js",
+  "bin": {
+    "npm-ci-once": "bin/main.js"
+  }
+}
